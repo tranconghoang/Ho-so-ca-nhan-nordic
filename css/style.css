@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header-begin */
+
+.headerbox {
+    background-color: black;
+    padding: 0.5em;
+}
+
+.headernav {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.headernav i {
+    color: white;
+    vertical-align: middle;
+}
+
+.sharebtn {
+    background: none;
+    border: none;
+    color: white;
+}
+
+.top-nav {
+    margin: 0 10px;
+}
+
+
+/* header-end */
+
+
+/* avatar-begin */
+
+.avatar-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.avatar {
+    border-radius: 100%;
+}
+
+.avatar-name {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+}
+
+.my-email {
+    opacity: 0.8;
+    font-size: 0.9em;
+}
+
+.avatar-section a,
+.avatar-unorderedlist li a {
+    text-decoration: none;
+    color: black;
+}
+
+.avatar-unorderedlist li {
+    padding-left: 40px;
+}
+
+.avatar-column {
+    float: left;
+    width: 20%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.portfolio {
+    font-weight: 700;
+}
+
+.about-me {
+    font-weight: 350;
+    opacity: 0.5;
+}
+
+.avatar-unorderedlist li:first-child::before {
+    content: url(../img/Porfolio.svg);
+}
+
+.avatar-unorderedlist li:first-child {
+    border-left: solid red 5px;
+}
+
+.avatar-unorderedlist li:last-child::before {
+    content: url(../img/about-me.svg);
+}
+
+.avatar-unorderedlist {
+    padding: 0;
+    list-style-type: none;
+}
+
+
+/* avatar-end */
+
+
+/* search-button-begin */
+
+.search {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.search-bar {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    padding: 5px 20px;
+    align-self: center;
+    margin-left: 20%;
+}
+
+
+/* search-button-end */
+
+
+/* top part */
+
+.top-part {
+    display: flex;
+}
+
+.portfolio-heading h1 {
+    font-size: 3.5em;
+}
+
+.focus-heading {
+    margin-left: 20px;
+    align-self: center;
+}
+
+.focus-heading p {
+    font-size: 1.15em;
+}
+
+
+/* top part */
+
+
+/* main-section-nav-begin */
+
+.content-column {
+    float: right;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-section-nav a {
+    color: red;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+
+/* main-section-nav-end */
+
+
+/* main-part-begin */
+
+.thumbnail {
+    width: 100%
+}
+
+.sub-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items {
+    width: 20%;
+    /*width:19%;*/
+    padding-right: 10px;
+    /* margin-right: 10px; */
+    /* neu de margin thi se khong du khoang trong trong 100% ( 20% * 5 columns) */
+}
+
+.style-text p:first-child {
+    font-weight: 700;
+    font-size: 1.125em;
+}
+
+.style-text p:nth-child(2) {
+    font-style: italic;
+    opacity: 0.7;
+}
+
+
+/* main-part-end */
+
+
+/* footer-begin */
+
+footer {
+    margin: 0px;
+    background-color: grey;
+    padding: 0.01em;
+}
+
+footer p {
+    margin-left: 10%;
+}
+
+
+/* footer-end */
+
+
+/* page2 */
+
+
+/* skills-begin */
+
+.html::before {
+    content: url(../img/html-5.svg);
+    vertical-align: middle;
+}
+
+.css::before {
+    content: url(../img/css\ 1.svg);
+    vertical-align: middle;
+}
+
+.js::before {
+    content: url(../img/js.svg);
+    vertical-align: middle;
+}
+
+.react::before {
+    content: url(../img/react.svg);
+    vertical-align: middle;
+}
+
+
+/* skills-end */
+
+
+/* language-begin */
+
+.english::before {
+    content: url(../img/UK.svg);
+    vertical-align: middle;
+}
+
+.vietnamese::before {
+    content: url(../img/vietnam-1.png);
+    vertical-align: middle;
+}
+
+
+/* language-end */
+
+
+/* page2 */

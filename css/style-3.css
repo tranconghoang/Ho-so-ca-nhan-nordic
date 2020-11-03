@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header-begin */
+
+.headerbox {
+    background-color: black;
+    padding: 1em;
+}
+
+.headernav {
+    text-align: right;
+}
+
+
+/* header-end */
+
+
+/* avatar-begin */
+
+.avatar-section {
+    text-align: middle
+}
+
+#avatar {
+    border-radius: 50%;
+}
+
+#name {
+    font: bold 24px black;
+}
+
+.avatar-section a,
+.avatar-navigation ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.avatar-navigation ul {
+    list-style-type: none;
+}
+
+.portfolio {
+    font-weight: 350;
+    opacity: 0.5;
+}
+
+.about-me {
+    font-weight: 350;
+    opacity: 0.5;
+}
+
+.avatar-unorderedlist li:first-child::before {
+    content: url(../img/Porfolio.svg);
+}
+
+.avatar-unorderedlist li:last-child::before {
+    content: url(../img/about-me.svg);
+}
+
+
+/* avatar-end */
+
+
+/* footer-begin */
+
+footer {
+    margin: 0px;
+    background-color: #F2F2F2;
+    padding-left: 1em;
+    padding-top: 0.875em;
+    padding-bottom: 0.875em;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* footer-end */
